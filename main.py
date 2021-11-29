@@ -100,4 +100,4 @@ if __name__ == '__main__':
   line1 = 'You Sunk My'
   line2 = 'BATTLESHIP'
   write(int((16-len(line1))/2), 0, line1)
-  write(3, 1, line2)
+  write(int((16-len(line2))/2), 1, line2)
