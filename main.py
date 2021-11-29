@@ -96,5 +96,8 @@ def write(x, y, str):
 
 if __name__ == '__main__':
   init(0x27, 1)
-  write(4, 0, 'I <3')
-  write(2, 1, 'BATTLESHIP')
+
+  line1 = 'You Sunk My'
+  line2 = 'BATTLESHIP'
+  write((16-len(line1)/2), 0, line1)
+  write(3, 1, line2)
