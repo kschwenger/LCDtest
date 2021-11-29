@@ -97,7 +97,7 @@ def write(x, y, str):
 if __name__ == '__main__':
   init(0x27, 1)
 
-  line1 = 'HIT DETECTED'
+  line1 = 'HIT DETECTED!'
   line2 = ' '
-  write(int((16-len(line1))/2), 0, line1)
+  write(1, 0, line1)
   write(int((16-len(line2))/2), 1, line2)
