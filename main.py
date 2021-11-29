@@ -96,5 +96,5 @@ def write(x, y, str):
 
 if __name__ == '__main__':
   init(0x27, 1)
-  write(4, 0, 'Hello World')
-  write(7, 1, 'REXQualis')
+  write(4, 0, 'I <3')
+  write(2, 1, 'BATTLESHIP')
