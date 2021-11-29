@@ -12,7 +12,7 @@ def write_word(addr, data):
     temp |= 0x08
   else:
     temp &= 0xF7
-    BUS.write_byte(addr ,temp)
+  BUS.write_byte(addr ,temp)
 
 def send_command(comm): # Send bit7-4 firstly
   buf = comm & 0xF0
@@ -48,8 +48,8 @@ def send_data(data):
   write_word(LCD_ADDR ,buf)
 
 def init(addr, bl):
-  global BUS
-  BUS = smbus.SMBus(1)
+  #       global BUS
+  #       BUS = smbus.SMBus(1)
   global LCD_ADDR
   global BLEN
   LCD_ADDR = addr
