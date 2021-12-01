@@ -99,5 +99,5 @@ if __name__ == '__main__':
 
   line1 = 'Holly Soo = '
   line2 = 'cutie'
-  write(2, 0, line1)
-  write(2, 1, line2)
+  write(int((16-len(line1))/2), 0, line1)
+  write(int((16-len(line2))/2), 1, line2)
