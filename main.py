@@ -97,7 +97,7 @@ def write(x, y, str):
 if __name__ == '__main__':
   init(0x27, 1)
 
-  line1 = 'I LOVE TO PLAY'
-  line2 = 'BATTLESHIP'
+  line1 = 'Holly Soo = '
+  line2 = 'cutie'
   write(int((16-len(line1))/2), 0, line1)
   write(int((16-len(line2))/2), 1, line2)
